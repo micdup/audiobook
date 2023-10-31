@@ -1,3 +1,22 @@
+
+.container {
+  position: relative;
+}
+
+.audioButton {
+  position: absolute;
+  background-color: rgba(100, 100, 255, 0.05);
+  border-style: dotted;
+}
+
+.audioButton:hover {
+  background-color: rgba(100, 100, 255, 0.4);
+}
+
+
+
+/* DEFAULT */
+
 .main {
   display: flex;
   flex-direction: column;

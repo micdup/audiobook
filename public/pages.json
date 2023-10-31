@@ -1,0 +1,36 @@
+[
+    {
+        "label": "Introduction",
+        "width": 1200,
+        "height": 1300,
+        "audio_buttons": [
+            {
+                "key": "test",
+                "coords": "100 100 300 80",
+                "audio": "tts1.mp3"
+            },
+            {
+                "key": "test 2",
+                "coords": "400 200 200 80",
+                "audio": "tts2.mp3"
+            }
+        ]
+    },
+    {
+        "label": "Page2",
+        "width": 1200,
+        "height": 1300,
+        "audio_buttons": [
+            {
+                "key": "test",
+                "coords": "100 100 300 80",
+                "audio": "tts1.mp3"
+            },
+            {
+                "key": "test 2",
+                "coords": "400 200 200 80",
+                "audio": "tts2.mp3"
+            }
+        ]
+    }
+]
