@@ -16,6 +16,7 @@ export default function Home() {
     <main className={styles.main}>
       { Pages.map(p => <AudioPage key={p.label}
         label={p.label}
+        page={p.page}
         width={p.width} height={p.height}
         audioButtons={p.audio_buttons} onAudioPlay={onAudioPlay}/>) }
     </main>

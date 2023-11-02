@@ -5,17 +5,18 @@ import AudioButton from "@/app/AudioButton";
 
 export interface AudioPageProps {
     label: string,
+    page: string,
     width: number,
     height: number,
     audioButtons: Array<any>,
     onAudioPlay: (string) => void
 }
 
-const AudioPage = ({label, width, height, audioButtons, onAudioPlay}: AudioPageProps) => {
+const AudioPage = ({label, page, width, height, audioButtons, onAudioPlay}: AudioPageProps) => {
     return (
         <div className={styles.container}>
             <Image
-                src="/images/page1.png"
+                src={"/images/" + page}
                 alt="page1"
                 width={width}
                 height={height}

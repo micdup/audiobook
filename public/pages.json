@@ -1,35 +1,429 @@
 [
     {
-        "label": "Introduction",
+        "label": "Page1",
         "width": 1200,
         "height": 1300,
+        "page": "page1.png",
         "audio_buttons": [
             {
-                "key": "test",
-                "coords": "100 100 300 80",
-                "audio": "tts1.mp3"
+                "key": "k1",
+                "coords": "10 250 630 60",
+                "audio": "intro.mp3"
             },
             {
-                "key": "test 2",
-                "coords": "400 200 200 80",
-                "audio": "tts2.mp3"
+                "key": "k2",
+                "coords": "110 340 360 80",
+                "audio": "concersation.mp3"
+            },
+            {
+                "key": "k3",
+                "coords": "275 20 360 80",
+                "audio": "whatsyourname.mp3"
+            },
+            {
+                "key": "k4",
+                "coords": "275 600 360 80",
+                "audio": "mynameis.mp3"
+            },
+            {
+                "key": "k5",
+                "coords": "410 20 430 80",
+                "audio": "wfirstname.mp3"
+            },
+            {
+                "key": "k6",
+                "coords": "410 600 360 80",
+                "audio": "firstname.mp3"
+            },
+            {
+                "key": "k7",
+                "coords": "540 20 430 80",
+                "audio": "wsurname.mp3"
+            },
+            {
+                "key": "k8",
+                "coords": "540 600 360 80",
+                "audio": "surname.mp3"
+            },
+            {
+                "key": "k9",
+                "coords": "680 20 430 80",
+                "audio": "wdoyoulive.mp3"
+            },
+            {
+                "key": "k10",
+                "coords": "680 600 360 80",
+                "audio": "ilivein.mp3"
+            },
+           {
+                "key": "k11",
+                "coords": "830 20 430 80",
+                "audio": "waddress.mp3"
+            },
+            {
+                "key": "k12",
+                "coords": "830 600 360 80",
+                "audio": "addressis.mp3"
+            },
+          {
+                "key": "k13",
+                "coords": "980 20 480 80",
+                "audio": "wyphone.mp3"
+            },
+            {
+                "key": "k14",
+                "coords": "980 600 360 80",
+                "audio": "phoneis.mp3"
+            },
+           {
+                "key": "k15",
+                "coords": "1120 20 400 80",
+                "audio": "hold.mp3"
+            },
+            {
+                "key": "k16",
+                "coords": "1120 600 390 80",
+                "audio": "10told.mp3"
+            },
+            {
+                "key": "k17",
+                "coords": "1225 20 400 80",
+                "audio": "howay.mp3"
+            },
+            {
+                "key": "k18",
+                "coords": "1225 600 390 80",
+                "audio": "iamfine.mp3"
             }
-        ]
+       ]
     },
     {
         "label": "Page2",
         "width": 1200,
         "height": 1300,
+        "page": "page2.png",
         "audio_buttons": [
             {
-                "key": "test",
-                "coords": "100 100 300 80",
-                "audio": "tts1.mp3"
+                "key": "b1",
+                "coords": "40 100 280 185",
+                "audio": "wdoyoulive.mp3"
             },
             {
-                "key": "test 2",
-                "coords": "400 200 200 80",
-                "audio": "tts2.mp3"
+                "key": "b2",
+                "coords": "229 190 270 160",
+                "audio": "inlondon.mp3"
+            },
+            {
+                "key": "b3",
+                "coords": "150 550 400 40",
+                "audio": "wdoyoulive.mp3"
+            },
+            {
+                "key": "b4",
+                "coords": "200 550 370 40",
+                "audio": "ilivein.mp3"
+            },
+            {
+                "key": "b5",
+                "coords": "560 100 270 185",
+                "audio": "hold.mp3"
+            },
+            {
+                "key": "b6",
+                "coords": "550 390 270 160",
+                "audio": "10told.mp3"
+            },
+            {
+                "key": "b7",
+                "coords": "940 50 550 55",
+                "audio": "howay.mp3"
+            },
+            {
+                "key": "b8",
+                "coords": "1030 750 370 40",
+                "audio": "howay.mp3"
+            },
+            {
+                "key": "b9",
+                "coords": "1000 10 110 80",
+                "audio": "sick.mp3"
+            },
+            {
+                "key": "b10",
+                "coords": "1000 200 90 75",
+                "audio": "sleepy.mp3"
+            },
+            {
+                "key": "b11",
+                "coords": "1000 380 90 75",
+                "audio": "happy.mp3"
+            },
+            {
+                "key": "b12",
+                "coords": "1000 500 110 85",
+                "audio": "super.mp3"
+            },
+            {
+                "key": "b13",
+                "coords": "1065 122 78 80",
+                "audio": "mad.mp3"
+            },
+            {
+                "key": "b14",
+                "coords": "1045 290 90 75",
+                "audio": "soso.mp3"
+            },
+            {
+                "key": "b15",
+                "coords": "1090 510 115 75",
+                "audio": "good.mp3"
+            },
+            {
+                "key": "b16",
+                "coords": "1075 770 280 45",
+                "audio": "iamfine.mp3"
+            },
+          {
+                "key": "b17",
+                "coords": "1140 10 90 80",
+                "audio": "bad.mp3"
+            },
+            {
+                "key": "b18",
+                "coords": "1225 75 100 75",
+                "audio": "sad.mp3"
+            },
+            {
+                "key": "b19",
+                "coords": "1200 200 105 80",
+                "audio": "hungry.mp3"
+            },
+            {
+                "key": "b20",
+                "coords": "1200 315 105 80",
+                "audio": "tired.mp3"
+            },
+            {
+                "key": "b21",
+                "coords": "1165 505 130 60",
+                "audio": "okay.mp3"
+            },
+            {
+                "key": "b22",
+                "coords": "1225 440 170 60",
+                "audio": "iamfine.mp3"
+            }
+        ]
+    },
+    {
+        "label": "Page2_1",
+        "width": 1200,
+        "height": 1300,
+        "page": "page2_1.png",
+        "audio_buttons":
+        [
+             {
+                "key": "b9",
+                "coords": "10 150 330 80",
+                "audio": "sick.mp3"
+            },
+            {
+                "key": "b10",
+                "coords": "590 150 330 80",
+                "audio": "sleepy.mp3"
+            },
+            {
+                "key": "b11",
+                "coords": "975 150 330 80",
+                "audio": "yahappy.mp3"
+            },
+            {
+                "key": "b12",
+                "coords": "1165 150 330 80",
+                "audio": "tasuper.mp3"
+            },
+            {
+                "key": "b13",
+                "coords": "110 150 330 80",
+                "audio": "yamad.mp3"
+            },
+            {
+                "key": "b14",
+                "coords": "690 150 330 80",
+                "audio": "yasoso.mp3"
+            },
+            {
+                "key": "b15",
+                "coords": "1070 150 330 80",
+                "audio": "tagood.mp3"
+            },
+            {
+                "key": "b16",
+                "coords": "780 150 330 80",
+                "audio": "hisfine.mp3"
+            },
+          {
+                "key": "b17",
+                "coords": "210 150 330 80",
+                "audio": "hisbad.mp3"
+            },
+            {
+                "key": "b18",
+                "coords": "310 150 330 80",
+                "audio": "wasad.mp3"
+            },
+            {
+                "key": "b19",
+                "coords": "400 150 330 80",
+                "audio": "yahungry.mp3"
+            },
+            {
+                "key": "b20",
+                "coords": "490 150 330 80",
+                "audio": "tatired.mp3"
+            },
+            {
+                "key": "b21",
+                "coords": "880 150 330 80",
+                "audio": "waokay.mp3"
+            }
+        ]
+    },
+    {
+    "label": "Page3",
+    "width": 1200,
+    "height": 1300,
+    "page": "page3.png",
+    "audio_buttons":
+        [
+            {
+               "key": "c1",
+                "coords": "20 70 160 80",
+                "audio": "tom.mp3"
+            },
+            {
+                "key": "c2",
+                "coords": "20 690 160 80",
+                "audio": "kate.mp3"
+            },
+            {
+                "key": "c3",
+                "coords": "150 690 400 50",
+                "audio": "boyorgirl.mp3"
+            },
+            {
+                "key": "c4",
+                "coords": "350 65 210 80",
+                "audio": "wcomefrom.mp3"
+            },
+            {
+                "key": "c5",
+                "coords": "350 280 210 80",
+                "audio": "fromchina.mp3"
+            },
+            {
+                "key": "c6",
+                "coords": "460 550 380 45",
+                "audio": "wcomefrom.mp3"
+            },
+            {
+                "key": "c7",
+                "coords": "520 550 380 40",
+                "audio": "frombelgium.mp3"
+            },
+            {
+                "key": "c8",
+                "coords": "700 210 710 80",
+                "audio": "uk.mp3"
+            },
+            {
+                "key": "c9",
+                "coords": "850 190 200 130",
+                "audio": "scotland.mp3"
+            },
+            {
+                "key": "c10",
+                "coords": "1000 100 180 100",
+                "audio": "nireland.mp3"
+            },
+            {
+                "key": "c11",
+                "coords": "1040 360 150 200",
+                "audio": "england.mp3"
+            },
+            {
+                "key": "c12",
+                "coords": "1100 250 110 130",
+                "audio": "wales.mp3"
+            },
+            {
+                "key": "c13",
+                "coords": "1040 660 130 50",
+                "audio": "rose.mp3"
+            },
+            {
+                "key": "c14",
+                "coords": "1130 640 130 50",
+                "audio": "leek.mp3"
+            },
+            {
+                "key": "c15",
+                "coords": "1220 680 180 50",
+                "audio": "thistle.mp3"
+            }
+        ]
+    },
+    {
+    "label": "Page4",
+    "width": 1200,
+    "height": 1300,
+    "page": "page4.png",
+    "audio_buttons":
+        [
+            {
+               "key": "d1",
+                "coords": "10 10 1110 90",
+                "audio": "wyoufrom.mp3"
+            },
+            {
+                "key": "d2",
+                "coords": "150 100 450 80",
+                "audio": "fireland.mp3"
+            },
+            {
+                "key": "d3",
+                "coords": "125 690 330 80",
+                "audio": "fbritain.mp3"
+            },
+            {
+                "key": "d4",
+                "coords": "380 160 300 140",
+                "audio": "fgermany.mp3"
+            },
+            {
+                "key": "d5",
+                "coords": "380 660 320 80",
+                "audio": "fholland.mp3"
+            },
+            {
+                "key": "d6",
+                "coords": "620 450 320 80",
+                "audio": "ffrance.mp3"
+            },
+            {
+                "key": "c7",
+                "coords": "700 130 210 130",
+                "audio": "fspain.mp3"
+            },
+            {
+                "key": "d8",
+                "coords": "680 860 240 160",
+                "audio": "filtaly.mp3"
+            },
+            {
+                "key": "d9",
+                "coords": "1050 60 510 150",
+                "audio": "fbelgium.mp3"
             }
         ]
     }
