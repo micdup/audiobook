@@ -8,7 +8,7 @@ export interface AudioButtonProps {
     width: number,
     height: number,
     audio: string,
-    onAudioPlay: (string) => void
+    onAudioPlay: (audio: string) => void
 }
 
 const AudioButton = ({x, y, width, height, audio, onAudioPlay}: AudioButtonProps) => {

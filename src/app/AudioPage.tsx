@@ -9,7 +9,7 @@ export interface AudioPageProps {
     width: number,
     height: number,
     audioButtons: Array<any>,
-    onAudioPlay: (string) => void
+    onAudioPlay: (onAudioPlay: string) => void
 }
 
 const AudioPage = ({label, page, width, height, audioButtons, onAudioPlay}: AudioPageProps) => {
